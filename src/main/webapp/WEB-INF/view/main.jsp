@@ -1,10 +1,16 @@
-<%@ page contentType="text/html; charset=utf-8" %>
-<!DOCTYPE html>
+<%--
+  Created by IntelliJ IDEA.
+  User: admin
+  Date: 2022-06-20
+  Time: 오후 12:18
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Hello</title>
+    <title>Main</title>
 </head>
 <body>
-    인사말: ${greeting}
+main
 </body>
 </html>
