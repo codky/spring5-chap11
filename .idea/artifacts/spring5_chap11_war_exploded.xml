@@ -15,22 +15,22 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.27" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.27" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.45" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.20" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.20" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:10.0.20" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.0.20" />
+          <element id="library" level="project" name="Maven: com.oracle.database.nls:orai18n:21.5.0.0" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.2.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.3" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.6" />
         </element>
       </element>
       <element id="directory" name="META-INF">

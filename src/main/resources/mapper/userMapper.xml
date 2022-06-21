@@ -4,7 +4,7 @@
 
 <mapper namespace="spring.repository.UserRepository">
     <insert id="insertMember">
-        INSERT INTO SPRING5_MEMBER (ID, EMAIL, PASSWORD, NAME, REGISTER_DATE_TIME) VALUES (#{},)
+        INSERT INTO SPRING5_MEMBER (ID, EMAIL, PASSWORD, NAME, REGDATE) VALUES (#{spring5_seq.nextval},#{email},#{password},sysdate)
     </insert>
 
 </mapper>

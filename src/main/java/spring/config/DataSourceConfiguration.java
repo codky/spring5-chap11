@@ -4,12 +4,18 @@ import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.TransactionManagementConfigurer;
 import spring.util.SimpleCrypto;
 
 import javax.sql.DataSource;
 
 @Configuration
-public class DataSourceConfiguration {
+@EnableTransactionManagement
+@PropertySource("classpath:application.properties")
+public class DataSourceConfiguration implements TransactionManagementConfigurer {
 
     @Value("${spring.datasource.driver-class-name}")
     private String dbDriverClassName;
@@ -34,5 +40,10 @@ public class DataSourceConfiguration {
         dataSource.setPassword(SimpleCrypto.decrypt(key,password));
 
         return dataSource;
+    }
+
+    @Override
+    public PlatformTransactionManager annotationDrivenTransactionManager() {
+        return null;
     }
 }
